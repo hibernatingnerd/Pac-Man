@@ -60,7 +60,7 @@ ticTacToeCell.forEach(function(i, index) {
 function winCheck() {
 victoryArray.forEach(function (e) {
     if (allCheckedX(e) || allCheckedO(e)){
-        console.log('win');
+        window.alert('win');
     }
     });
   }
